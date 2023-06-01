@@ -1,0 +1,83 @@
+baseURL: "https://selfcare.nz"
+languageCode: en-us
+title: SelfCare - NZ Wellness Directory
+theme: tella
+
+params:
+  logo:
+    main: "/img/logo.webp"
+    alt: "modern man barbershop logo"
+    size: "logo"
+     
+  googleAnalytics: G-GTDSQTLWR0
+  defaultTheme: light
+  disableThemeToggle: true
+
+  homeInfoParams:
+      Title: Wellness Business Directory New Zealand - SelfCare.nz
+      Content: Helping Kiwis bring more wellness into their lives – connect with a business near you that can elevate your lifestyle.
+      
+  socialIcons:
+  Name: facebook
+  Url: “https://facebook.com/”
+  Name: twitter
+  Url: “https://twitter.com/”
+
+  cover: 
+      linkFullImages: true
+
+  ShowBreadCrumbs: true
+
+  ShowReadingTime: true
+
+  ShowShareButtons: true
+
+  ShowPostNavLinks: true
+
+
+
+
+menu: 
+  main: 
+
+    - identifier: wellness
+      name: Health & Wellness
+      url: health-wellness
+      weight: 1
+
+    - identifier: fitness
+      name: Fitness
+      url: /fitness
+      weight: 2
+
+    - identifier: beauty
+      name: Beauty
+      url: /beauty
+      weight: 3
+
+    - identifier: vendors
+      name: For Vendors
+      url: /vendors
+      weight: 4
+
+    - identifier: review
+      name: Write a Review
+      url: /review
+      weight: 5
+
+  footer:
+    - name: Home
+      url: /
+      weight: 1
+
+    - identifier: posts
+      name: Posts
+      url: /posts/
+      weight: 2
+
+markup:
+  goldmark:
+    renderer:
+      unsafe: true
+    extensions:
+      linkify: false
