@@ -1,7 +1,8 @@
-baseURL: "https://selfcare.nz"
+baseURL: "https://selfcarenz.netlify.app"
 languageCode: en-us
 title: SelfCare - NZ Wellness Directory
 theme: tella
+
 
 params:
   logo:
