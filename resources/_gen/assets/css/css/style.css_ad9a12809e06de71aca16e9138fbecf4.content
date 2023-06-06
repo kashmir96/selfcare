@@ -2614,7 +2614,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 }
 
 .btn-primary {
-  background-color: #E05F00; 
+  background-color: #ED0091; 
   border:none;
   border-radius:22px;
   padding: 10px 30px;
@@ -2622,7 +2622,7 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 }
 
 .btn-primary:hover {
-  background-color:#C35200
+  background-color:#DD0087
 }
 
 .email-form>.btn-primary {
@@ -2632,9 +2632,9 @@ input[type="submit"].fcf-btn-block, input[type="reset"].fcf-btn-block, input[typ
 
 .btn-secondary { 
   background-color: transparent;
-  color: #E05F00;
+  color: #ED0091;
   font-weight: 600;
-  border:1px solid #E05F00;
+  border:1px solid #ED0091;
   border-radius:22px;
   padding: 10px 30px;
   max-width: 200px;  
@@ -2846,3 +2846,59 @@ nav.p-8 {
   padding: 1rem  !important;
 }
 
+html, body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: linear-gradient(to bottom, rgba(215, 246, 250, 1) 0%, rgba(215, 246, 250, 0) 75%);
+  background-repeat: no-repeat;
+}
+
+
+.final-cta {
+  background: linear-gradient(to top, rgba(215, 246, 250, 1) 0%, rgba(215, 246, 250, 0) 75%);
+  background-repeat: no-repeat;
+  margin: -200px auto 0px;
+  padding-top: 200px;
+}
+
+
+.container {
+  padding: 20px;
+  color: #000;
+  /* Add any other styles you need for your container */
+}
+
+
+.wide{
+  width: 100vw; /* Use the full width of the viewport */
+}
+
+.listings>div>div {
+  background-color: white;
+  border: 1px solid #eaeaea;
+  border-radius: 30px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  padding:0px;
+  text-align: center;
+}
+
+.listing-label p {
+  display: block;
+  margin: 10px auto;
+}
+
+.listings a:hover {
+  text-decoration: none;
+}
+
+.final-cta a{
+  margin: 0px auto !important;
+}
+
+.pink {
+ color: #ED0091;
+}
